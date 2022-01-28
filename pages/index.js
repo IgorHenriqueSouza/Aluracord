@@ -70,7 +70,7 @@ export default function PaginaInicial() {
             onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault()
               console.log('oieee')
-              roteamento.push('/chat')
+              roteamento.push(`/chat?username=${username}`)
 
             }}
             styleSheet={{
